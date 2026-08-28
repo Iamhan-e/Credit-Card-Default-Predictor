@@ -1,6 +1,3 @@
-
-
-````markdown
 # Credit Card Default Prediction
 
 ## Overview
@@ -228,7 +225,7 @@ The best parameters found were:
 n_estimators = 200
 max_depth = None
 min_samples_leaf = 1
-````
+```
 
 The best cross-validation F1 score was:
 
@@ -446,17 +443,18 @@ Possible improvements include:
 ## Project Structure
 
 ```text
-credit-card-default-predictor/
+credit_card_default_predictor/
 │
 ├── data/
-│   └── default of credit card clients.xls
+│   └── default+of+credit+card+clients/
+│       └── default of credit card clients.xls
 │
 ├── notebooks/
-│   └── credit_card_default_prediction.ipynb
+│   └── credit_card_default.ipynb
 │
 ├── requirements.txt
 ├── .gitignore
-└── README.md
+└── README.MD
 ```
 
 ---
@@ -467,7 +465,7 @@ credit-card-default-predictor/
 
 ```bash
 git clone <your-repository-url>
-cd credit-card-default-predictor
+cd credit_card_default_predictor
 ```
 
 ### 2. Create a virtual environment
@@ -495,7 +493,7 @@ pip install -r requirements.txt
 Open:
 
 ```text
-notebooks/credit_card_default_prediction.ipynb
+notebooks/credit_card_default.ipynb
 ```
 
 and run the cells from top to bottom.
@@ -522,8 +520,3 @@ complete supervised learning workflow: data exploration, preprocessing,
 pipelines, classification models, cross-validation, hyperparameter
 tuning, threshold selection, model evaluation, feature importance, and
 error analysis.
-
-```
-
-
-```
