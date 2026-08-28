@@ -1,6 +1,4 @@
-Absolutely. Since this is your **first end-to-end supervised learning project**, I'd keep the README professional but not over-engineered. It should demonstrate that you understand the ML workflow rather than try to make the project sound like a production banking system.
 
-Here is a portfolio-ready version based on the work you've actually completed:
 
 ````markdown
 # Credit Card Default Prediction
